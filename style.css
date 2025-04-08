@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type:none;
+}
+@font-face {
+    font-family: poppins;
+    src: url('fonts/OFL.txt');
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin:50px;
+    margin:30px;
+    font-size: 20px;
+}
+header{
+    color:white;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(255,255,255,0)),url('Images/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 15%;
+    h3{
+        background-color: #89BF7A;
+        text-align: center;
+        padding: 1%;
+    }
+    nav{
+        display:flex;
+        margin: 3% 4%;
+        font-size: 25px;
+    }
+    ul{
+        margin:1% 20%;
+    }
+    li{
+        display: inline;
+    }
+    >h1{
+        font-size: 100px;
+        padding: 0 15%;
+        margin-top: 10%;
+    }
+    h2{
+        font-size: 30px;
+        padding: 0 25%;
+        margin: 2% 0;
+    }
+    i{
+        font-size: 40px;
+    }
+   button{
+    padding: 1em 3em;
+    background-color: rgba(187, 182, 176,0.8);
+    border:none;
+    color:white;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 30px;
+   }
+}
+.title{
+    padding: 2%;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    margin:2% 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.main{
+    display:flex;
+    margin: 5%;
+    img{
+        height:750px;
+        width:700px;
+        border-radius: 30px;
+    }
+}
+.main-content{
+    padding: 3% 5%;
+    line-height: 1.5;
+    h1{
+        font-size: 60px;
+        padding-right: 20%;
+    }
+    .rasi,.at-rasi{
+        font-size: 25px;
+    }
+    .rasi{
+        color: #89BF7A; 
+    }
+    .at-rasi{
+        color:grey;
+    }
+    button{
+        padding: 4% 10%;
+        border-radius: 60px;
+        margin: 5% 0 5% 5%;
+        font-size: 30px;
+    }
+    .know-more{
+        border:none;
+        background-color: #89BF7A;
+        color:white;
+    }
+}
+
+.promotion{
+    background-color:#E6F2E4;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        height:70px;
+        margin-right: 20px;
+    }
+    padding: 6% 3%;
+    line-height: 1.5;
+    p{
+        color:grey;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+.promo,
+.contact-info{
+    display:flex
+}
+.screen-printing {
+    margin:5%;
+    text-align: center;
+    font-size: 30px;
+    p{
+        color:grey;
+        padding: 2% 20%;
+
+    }
+}
+
+.technique{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+.printing{
+    padding: 1em;
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    p{
+        color:grey;
+        font-weight: bold;
+    }
+}
+#traditional, #advanced-uv, #four-color{
+    background-color: #E6F2E4;
+    font-size: 60px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    text-align: center;
+    position: absolute;
+    top:75%;
+    left: 75%;
+}
+.testimony,.works ,
+.reach
+{
+    margin:8% 8% 3% 8%;
+    text-align: center;
+    font-size: 30px;
+    p{
+        color:grey;
+        padding: 2% 10%;
+    }
+}
+
+.industries{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+.company{
+    display:flex;
+    padding:1em 4em;
+    line-height: 2;
+    background-color: white;
+    box-shadow:5px 5px rgba(0,0,0,0.2);
+    img{
+        height:100px;
+        width:100px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+    h3{
+        color: rgb(166, 163, 163);
+    }
+}
+
+.review{
+    display:flex;
+    justify-content: space-evenly;
+    img{
+        height:500px;
+        width:800px;
+        border-radius: 20px;
+    }
+    margin: 10% 5%;
+}
+.quality{
+    padding: 3%;
+    .stars{
+        color:#89BF7A;
+        font-weight: bolder;
+        letter-spacing: 10px;
+    }
+    p{
+        font-size: 23px;
+        color: grey;
+        margin-top: 5%;
+    }
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin:5%;
+    img{
+        width:150px;
+        height:80px;
+    }
+}
+.works p{
+    padding: 2% 18%;
+}
+
+.showcase{
+    display: flex;
+    justify-content: space-evenly;
+}
+#girl-image{
+    width:94%;
+    margin: 1% 3%;
+    border-radius: 30px;
+}
+.reach p{
+    padding: 2% 15%;
+}
+
+.information{
+    background-image: url('Images/Contact_Map.max-1280x720.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 10%;
+}
+.contact{
+    background-color: white;
+    border-radius: 30px;
+    width:50%;
+    padding: 8% 0 8% 6%;
+    line-height: 2;
+    h1{
+        font-size: 50px;
+    }
+    p,h2{
+        font-size: 25px;
+    }
+    p{
+        color:grey;
+    }
+    
+}
+.icon{
+    font-size: 60px;
+    margin-right: 10%;
+    color: black;
+}
+footer{
+    background-color: #253036;
+    margin-top: 5%;
+    color:#BABDBF;
+    a{
+        line-height: 1.85;
+        color:#BABDBF;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    img{
+        border-radius: 30px;
+    }
+    h2{
+        margin-bottom: 5%;
+    }
+}
+.premier{
+    width:18%;
+    margin-left: 4%;
+}
+.head-office{
+    width:35%;
+    padding-left:8%;
+    div{
+        display:grid;
+        grid-template-columns: auto auto;
+        margin-top: 5%;
+        line-height: 2.5;
+    }
+    i{
+        margin-right: 15px;
+    }
+}
+#copyright{
+    text-align: center;
+    padding: 3%;
+}
+
+@media only screen and (max-width:500px){
+    header{
+        nav{
+            margin: 0;
+            flex-direction: column;
+        }
+        i{
+            position: absolute;
+            top:4%;
+            left:85%;
+            font-size: 30px;
+        }
+        a{
+            margin:5px;
+            color:#89BF7A
+        }
+         
+        ul{
+            margin: 0;
+        }
+        h1{
+            padding: 0;
+            text-align: left;
+        }
+    }
+}

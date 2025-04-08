@@ -15,7 +15,6 @@ h1{
 a{
     color:white;
     text-decoration: none;
-    margin:50px;
     margin:30px;
     font-size: 20px;
 }
@@ -36,6 +35,7 @@ header{
         display:flex;
         margin: 3% 4%;
         font-size: 25px;
+        justify-content: space-between;
     }
     ul{
         margin:1% 20%;

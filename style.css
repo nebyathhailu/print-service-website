@@ -7,7 +7,10 @@ ul{
 }
 @font-face {
     font-family: poppins;
-    src: url('fonts/OFL.txt');
+    src: url('fonts/Poppins-Light.ttf');
+}
+h1{
+    font-family: poppins;
 }
 a{
     color:white;
@@ -131,6 +134,11 @@ header{
 .contact-info{
     display:flex
 }
+.promo:hover,
+.company:hover{
+    transform: scale(1.2);
+    border:#89BF7A solid 2px;
+}
 .screen-printing {
     margin:5%;
     text-align: center;
@@ -242,6 +250,9 @@ header{
 .showcase{
     display: flex;
     justify-content: space-evenly;
+    img{
+        border-radius: 30px;
+    }
 }
 #girl-image{
     width:94%;
@@ -253,7 +264,7 @@ header{
 }
 
 .information{
-    background-image: url('Images/Contact_Map.max-1280x720.png');
+    background-image: url('Images/map.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5% 10%;
@@ -325,15 +336,18 @@ footer{
     padding: 3%;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     header{
         nav{
+            text-align:start;
             margin: 0;
             flex-direction: column;
+            padding: 3%;
+            background-color: rgba(0,0,0,0.3);
         }
         i{
             position: absolute;
-            top:4%;
+            top:8%;
             left:85%;
             font-size: 30px;
         }
@@ -341,13 +355,143 @@ footer{
             margin:5px;
             color:#89BF7A
         }
-         
+
         ul{
             margin: 0;
+            text-align: center;
         }
-        h1{
+        >h1{
+            padding: 1%;
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
             padding: 0;
-            text-align: left;
+            margin-left: 5px;
+        }
+        button{
+            padding:0.5em;
+            font-size: 20px;
+            text-align: center;
+        }   
+    }
+    .title{
+        font-size: 30px;
+    }
+    .main{
+        flex-direction: column;
+        img{
+            height:350px;
+            width: 350px;
+        }
+    }
+    .main-content{
+        padding: 0;
+        h1{
+            font-size: 30px;
+            padding: 0;
+        }
+        .at-rasi{
+            font-size: 20px;
+        }
+        button{
+            margin: 2% 0;
+        }
+    }
+    .promotion{
+        flex-direction: column;
+    }
+    .promo{
+        margin: 5% 0;
+        h1{
+            font-size: 27px;
+        }
+    }
+    .screen-printing{
+        font-size: 18px;
+        margin: 0;
+        text-align: start;
+        p{
+            padding: 0;
+        }
+    }
+    .technique{
+        flex-direction: column;
+        margin: 0;
+        img{
+            width: 350px;
+        }
+    }
+    #traditional, #advanced-uv, #four-color{
+        display:none;
+    }
+    .testimony,.works ,.reach{
+        margin:0 ;
+        text-align: start;
+        font-size: 20px;
+        p{
+            padding: 5px;
+        }
+    }
+    .industries{
+        flex-direction: column;
+    }
+    .company{
+        padding: 5px 0;
+        margin:3% 0;
+    }
+    .review{
+        margin: 0;
+        flex-direction: column;
+        img{
+           max-width:400px
+        }
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 10%;
+        gap: 20px;
+        #markalar{
+            margin:0 50%;
+        }
+    }
+    .showcase{
+        flex-direction: column;
+        img{
+            height:400px;
+            margin: 5%;
+        }
+    }
+    #girl-image{
+        height:400px
+    }
+    .information{
+        margin:15% 0;
+    }
+    .contact{
+        width:100%;
+    }
+    .footer{
+        flex-direction: column;
+        padding-left: 0;
+        img{
+            width:60%;
+            margin:auto;
+        }
+    }
+    .premier{
+        width: 100%;
+        margin:10% 4% ;
+    }
+    .footer-link{
+        display: flex;
+    }
+    .head-office{
+        width:100%;
+        padding:3% 0 3% 3%;
+        i{
+            margin-right: 5px;
         }
     }
 }
